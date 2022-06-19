@@ -1,3 +1,5 @@
+
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +10,7 @@
   background-image: linear-gradient(rgba(37, 15, 15, 0.4), rgba(0, 0, 0, 0.9)),
     url("./imgs/codeBG.jpg");
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -63,7 +65,11 @@
 
 .nav-styling{
   height: 8rem;
-  background-color: black;
+  background-image: linear-gradient(rgba(37, 15, 15, 0.4), rgba(0, 0, 0, 0.9)),
+    url("./imgs/codeBG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   
 }
 
@@ -226,4 +232,83 @@
 .menu-wrap .toggler:checked ~ .menu > div > div{
   opacity: 1;
   transition: opacity 0,4s ease;
+}
+
+/* Portfolio Styling */
+.portfolio-flex{
+  background-color: #f0ece3;
+  min-height: 60vh;
+}
+
+#port-title{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid black;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.port-h1{
+  font-size: 3.5rem;
+}
+
+h3{
+  font-size: 1.7rem;
+}
+
+.p-font{
+  font-size: 1.3rem;
+}
+
+.img-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 2rem;
+}
+
+.img-grid img{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 100%;
+  display: block;
+  
+}
+
+.img-grid h3{
+  text-align: center;
+}
+
+.img-grid p{
+  text-align: center;
+  
+}
+
+.img-grid a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.p-modify{
+  padding-top: 10px;
+  
+}
+
+.port-btn {
+  margin-top: 5rem;
+  background: none;
+  color: #49fb35;;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 2em;
+  transition: all 0.2s;
+  text-shadow: 12px 5px 5px black;
+}
+
+.port-btn:hover {
+  border-color: #f1ff5c;
+  color: red;
+  box-shadow: .5em 0.5em 0.15em -0.2em red;
+  transform: translateY(-0.25em);
+  cursor: pointer;
 }

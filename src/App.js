@@ -8,11 +8,15 @@ import Footer from './Footer'
 function App() {
   return (
     <>
+    <BrowserRouter>
     <NavBar/>
-    <Home/>
-    <Portfolio/>
-    <Footer/>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Portfolio' element={<Portfolio/>}/>
+    </Routes>
     
+    
+    </BrowserRouter>
     </>
   );
 }
