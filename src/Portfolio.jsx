@@ -9,7 +9,7 @@ function Portfolio() {
   return (
     <>
     <section className='portfolio-flex'>
-    <Link to="/" className='port-btn'>Home</Link>
+    
         <div id='port-title'>
             <h1 className="port-h1">Portfolio</h1>
         </div>
@@ -44,10 +44,9 @@ function Portfolio() {
                 <p className="p-font">HTML CSS Javascript Third-Party API</p>
                 </a>
             </div>
+            </div>
             
-        </div>
-        
-        
+            <Link to="/" id="port-link" className='port-btn'>Home</Link>
     </section>
     </>
   )

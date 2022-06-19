@@ -239,10 +239,17 @@
   background-image: linear-gradient(rgba(37, 15, 15, 0.4), rgba(0, 0, 0, 0.9)),
     url("./imgs/codeBG.jpg");
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+#port-link{
+  width: fit-content;
+  margin-left: 50rem;
 }
 
 #port-title{
