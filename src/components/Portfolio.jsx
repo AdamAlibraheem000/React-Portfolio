@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import sweeneys from './imgs/sweeneys.JPG'
-import jobHunter from './imgs/jobHunter.JPG'
-import pinItPic from './imgs/pinItPic.JPG'
-import weatherDashBoard from './imgs/weatherDashBoard.JPG'
+import sweeneys from '../imgs/sweeneys.JPG'
+import jobHunter from '../imgs/jobHunter.JPG'
+import pinItPic from '../imgs/pinItPic.JPG'
+import weatherDashBoard from '../imgs/weatherDashBoard.JPG'
 
 function Portfolio() {
   return (
@@ -14,11 +14,11 @@ function Portfolio() {
             <h1 className="port-h1">Portfolio</h1>
         </div>
         <div className='img-grid'>
-            <div><a href="https://sweeney-seafood.herokuapp.com/" target="_blank" rel='noreferrer noopener'>
+            <div><a href="https://tranquil-glacier-bay-35263.herokuapp.com/" target="_blank" rel='noreferrer noopener'>
                 <img src={sweeneys} alt="sweeney's" />
                 <h3 >Sweeney's Seafood Bar & Grill</h3>
                 <p className='p-modify p-font'>Updated local restaurant's website using the MERN stack.</p>
-                <p className="p-font">React Express.js Node.js MongoDB GraphQL</p>
+                <p className="p-font">React Express.js Node.js MongoDB</p>
                 </a>
             </div>
             <div>
@@ -46,7 +46,7 @@ function Portfolio() {
             </div>
             </div>
             
-            <Link to="/" id="port-link" className='port-btn'>Home</Link>
+            <Link to="/" id="port-link" className='port-btn'>$cd Home</Link>
     </section>
     </>
   )

@@ -291,6 +291,7 @@ h3{
   padding-right: 2rem;
   max-width: 100%;
   display: block;
+  border-radius: 10px;
   
 }
 
@@ -322,6 +323,7 @@ h3{
   font-size: 2em;
   transition: all 0.2s;
   text-shadow: 12px 5px 5px black;
+  
 }
 
 .port-btn:hover {
@@ -330,4 +332,9 @@ h3{
   box-shadow: .5em 0.5em 0.15em -0.2em red;
   transform: translateY(-0.25em);
   cursor: pointer;
+}
+
+/* Tablets */
+@media screen and (max-width: 811){
+  
 }
