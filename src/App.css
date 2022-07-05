@@ -239,7 +239,7 @@
   background-image: linear-gradient(rgba(37, 15, 15, 0.4), rgba(0, 0, 0, 0.9)),
     url("./imgs/codeBG.jpg");
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -335,6 +335,56 @@ h3{
 }
 
 /* Tablets */
-@media screen and (max-width: 811){
+@media only screen and (max-width: 811px){
   
+  .home-styling .title-styling{
+    font-size: 3rem;
+  }
+
+  .home-styling .name-styling{
+    font-size: 3rem;
+  }
+
+  #port-link{
+   margin-left: 15rem;
+  }
+ 
+}
+
+@media only screen and (max-width: 450px){
+  .home-styling{
+    height: 100vh;
+  }
+
+
+
+  .home-styling .title-styling{
+    font-size: 2rem;
+  }
+
+  .home-styling .name-styling{
+    font-size: 2rem;
+  }
+  .home-styling .about-styling{
+    width: 100vw;
+    border: none;
+  }
+
+  #linkOne{
+    font-size: 1.7rem;
+  }
+  
+  #linkTwo{
+    font-size: 1.7rem;
+  }
+
+  #linkThree{
+    font-size: 1.7rem;
+  }
+
+  .port-btn {
+    margin: 0;
+    font-size: 1.3em;
+  }
+
 }
