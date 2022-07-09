@@ -46,7 +46,7 @@ function Portfolio() {
             </div>
             </div>
             
-            <Link to="/" id="port-link" className='port-btn'>$cd Home</Link>
+            <Link to="/" id="port-link" className='port-btn-2'>$cd Home</Link>
     </section>
     </>
   )

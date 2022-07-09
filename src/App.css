@@ -239,7 +239,7 @@
   background-image: linear-gradient(rgba(37, 15, 15, 0.4), rgba(0, 0, 0, 0.9)),
     url("./imgs/codeBG.jpg");
   width: 100vw;
-  height: 100vh;
+ min-height: 100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -283,7 +283,8 @@ h3{
 .img-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
+  
 }
 
 .img-grid img{
@@ -326,6 +327,16 @@ h3{
   
 }
 
+.port-btn-2{
+  color: #49fb35;;
+  border: 2px solid;
+  padding: .75em 2em;
+  font-size: 2em;
+  transition: all 0.2s;
+  text-shadow: 12px 5px 5px black;
+  
+}
+
 .port-btn:hover {
   border-color: #f1ff5c;
   color: red;
@@ -351,15 +362,14 @@ h3{
  
 }
 
+/* Mobile Screens */
 @media only screen and (max-width: 450px){
   .home-styling{
     height: 100vh;
   }
 
-
-
   .home-styling .title-styling{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .home-styling .name-styling{
@@ -368,6 +378,8 @@ h3{
   .home-styling .about-styling{
     width: 100vw;
     border: none;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   #linkOne{
@@ -386,5 +398,33 @@ h3{
     margin: 0;
     font-size: 1.3em;
   }
+
+  #port-title h1{
+    font-size: 2rem;
+  }
+
+  .img-grid h3{
+    font-size: 1rem;
+  }
+
+  .img-grid p{
+    font-size: 1rem;
+  }
+
+  .img-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  img{
+    width: 90%;
+  }
+
+  #port-link{
+    width: fit-content;
+    font-size: 1rem;
+    
+  }
+
 
 }
