@@ -14,7 +14,7 @@ function Portfolio() {
             <h1 className="port-h1">Portfolio</h1>
         </div>
         <div className='img-grid'>
-            <div><a href="https://tranquil-glacier-bay-35263.herokuapp.com/" target="_blank" rel='noreferrer noopener'>
+            <div><a href="https://www.sweeneyseafood.com/" target="_blank" rel='noreferrer noopener'>
                 <img src={sweeneys} alt="sweeney's" />
                 <h3 >Sweeney's Seafood Bar & Grill</h3>
                 <p className='p-modify p-font'>Updated local restaurant's website using the MERN stack.</p>
