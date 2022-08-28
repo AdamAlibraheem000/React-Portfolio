@@ -4,6 +4,7 @@ import sweeneys from '../imgs/sweeneys.JPG'
 import jobHunter from '../imgs/jobHunter.JPG'
 import pinItPic from '../imgs/pinItPic.JPG'
 import weatherDashBoard from '../imgs/weatherDashBoard.JPG'
+import taskManagerPro from '../imgs/taskManagerProPic.png'
 
 function Portfolio() {
   return (
@@ -18,6 +19,14 @@ function Portfolio() {
                 <img src={sweeneys} alt="sweeney's" />
                 <h3 >Sweeney's Seafood Bar & Grill</h3>
                 <p className='p-modify p-font'>Updated local restaurant's website using the MERN stack.</p>
+                <p className="p-font">React Express.js Node.js MongoDB</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://mern-task-manager-pro.herokuapp.com/" target="_blank" rel='noreferrer noopener'>
+            <img src={taskManagerPro} alt="taskManagerPro" />
+                <h3>Task Manager Pro</h3>
+                <p className="p-font">Full-Stack task list application utilizing the MERN stack.</p>
                 <p className="p-font">React Express.js Node.js MongoDB</p>
                 </a>
             </div>
